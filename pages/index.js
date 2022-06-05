@@ -18,7 +18,7 @@ export default function Home() {
       <Section>
         <Subtitle>Why open?</Subtitle>
         <Paragraph>
-          Strategy is hard, and when you don&apos;t have any real world examples to learn from is even harder.
+          Strategy is hard, and when you do not have any real world examples to learn from is even harder.
         </Paragraph>
         <Paragraph>
           We all are learning as we can by trail and error. Some of us had the chance to learn from the experience of others.
@@ -27,7 +27,12 @@ export default function Home() {
       <Section>
         <Subtitle>How to join the movement?</Subtitle>
         <Paragraph>
-          WIP 🚧
+          <ul className="list-disc">
+            <li>It should be a real-world example. So, it should not be too abstract.</li>
+            <li>It should be publicly available.</li>
+            <li>Preferably under some <Link href="https://creativecommons.org/choose/">Creative Commons License</Link></li>
+            <li>You need to have the organization permission to make that information publicly available</li>
+          </ul>
         </Paragraph>
       </Section>
       <Section>
