@@ -11,7 +11,7 @@ function MyApp({ Component, pageProps }) {
         <meta property="og:description" content="Open Engineering Strategy Movement" key="description" />
         <meta property="og:url" content="https://openengineeringstrategy.com/" key="url" />
         <meta property="og:site_name" content="Open Engineering Strategy" key="site_name" />
-        <meta property="og:image" content="/og.png" key="image" />
+        <meta property="og:image" content="https://openengineeringstrategy.com/og.png" key="image" />
       </Head>
       <Component {...pageProps} />
     </div>
