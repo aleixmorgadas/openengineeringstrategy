@@ -1,16 +1,27 @@
+import Head from "next/head"
+import Image from "next/image"
 import Container from "../components/Container"
 import Link from "../components/Link"
 import Paragraph from "../components/Paragraph"
 import Section from "../components/Section"
 import Subtitle from "../components/Subtitle"
 import Title from "../components/Title"
-import Image from "next/image"
 
 import awesomeImage from "../public/awesome.svg"
 
 export default function Home() {
   return (
     <Container>
+      <Head>
+        <title>Open Engineering Strategy</title>
+        <meta property="og:title" content="Open Engineering Strategy" key="title" />
+        <meta property="og:locale" content="en_US" key="locale" />
+        <meta property="og:type" content="article" key="type" />
+        <meta property="og:description" content="Open Engineering Strategy Movement" key="description" />
+        <meta property="og:url" content="https://openengineeringstrategy.com/" key="url" />
+        <meta property="og:site_name" content="Open Engineering Strategy" key="site_name" />
+        <meta property="og:image" content="/og.png" key="image" />
+      </Head>
       <Title>Open Engineering Strategy</Title>
       <p className="text-center mt-6">
         <Link href="https://twitter.com/hashtag/openengineeringstrategy">#OpenEngineeringStrategy</Link>
