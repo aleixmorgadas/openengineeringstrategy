@@ -1,5 +1,5 @@
 export default function Paragraph(props) {
   return (
-    <p>{props.children}</p>
+    <p className={`text-center ${props.className}`}>{props.children}</p>
   )
 }
