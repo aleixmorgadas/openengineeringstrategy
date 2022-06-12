@@ -21,7 +21,7 @@ export default function Home() {
             Strategy is hard, and when you do not have any real world examples to learn from is even harder.
           </Paragraph>
           <Paragraph>
-            We all are learning as we can by trail and error. Some of us had the chance to learn from the experience of others.
+            We all are learning as we can by trial and error. Some of us had the chance to learn from the experience of others.
           </Paragraph>
         </Section>
         <Section>
